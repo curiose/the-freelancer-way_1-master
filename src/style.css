@@ -1,0 +1,517 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #202020;
+}
+img {
+    max-width: 100%;
+}
+@font-face {
+    font-family: 'MuseoCyrl-900';
+    src: url('../fonts/MuseoCyrl-900.woff') format('woff'),
+         url('../fonts/MuseoCyrl-900.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }  
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #f1f1f1;
+}
+.container-header {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1137px;
+    height: 60px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+.shoptitle {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-link {
+    font-size: 14px;
+    font-weight: 400;   
+    text-decoration: none;
+    margin-right: 11px;
+    margin-left: 11px; 
+    color: inherit;
+}
+.cabinet-link {
+    font-size: 14px;
+    font-weight: 400;   
+    text-decoration: none;
+    color: inherit;
+}
+.hero {
+    margin-top: 62px;
+    padding-top: 62px;
+    padding-bottom: 71px;
+}
+.hero-container {
+    display: flex;
+    max-width: 1137px;
+    margin: auto;
+    align-items: center;
+}
+.image-block {
+    margin-right: 122px;
+    position: relative;
+}
+.sale-lable {
+    position: absolute;
+    right: 0;
+    top: 23px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #c93535;
+    padding: 12px 17px;
+}
+.hero-text {
+    align-items: center;
+}
+.author {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.title {
+    font-family: "MuseoCyrl-900";
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.subtitle {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 49px;
+    width: 351px;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 460px;
+}
+.info {
+    font-size: 16px;
+    font-weight: 400;
+    flex-basis: 50%;
+    margin-bottom: 16px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.pricetag {
+    font-size: 55px;
+    font-weight: 400;
+    margin-right: 64px;
+}
+.favorites {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.buttons {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.to-read {
+    padding: 22px 59px;
+    color: #ffffff;
+    background-color: #f89c02;
+    border: 2px solid #f89c02;
+    margin-right: 20px;
+}
+.to-buy {
+    padding: 22px 59px;
+    background-color: #ffffff;
+    color: #f89c02;
+    border: 2px solid #f89c02;
+}
+.about {
+    background-color:#f1f1f1;
+    padding-top: 93px;
+    padding-bottom: 96px;
+}
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1367px;
+}
+.book-title {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.aboutbook {
+    max-width: 454px;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.aboutauthor {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+    border-radius: 10px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    max-width: 552px;
+    padding-top: 68px;
+    padding-left: 53px;
+    padding-right: 110px;
+    padding-bottom: 86px;
+    align-items: center;
+
+}
+.p-author {
+    flex-basis: 100%;
+}
+.aboutauthortitle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.author-photo {
+    margin-right: 21px;
+}
+.readers {
+    padding-top: 87px;
+    padding-bottom: 109px;
+}
+.readers-container {
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.readers-title {
+    margin-bottom: 57px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.readers-block {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.reader-photo {
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #f1f1f1;
+    padding-top: 59px;
+    padding-bottom: 53px;
+    padding-left: 117px;
+}
+.footer-container {
+    max-width: 1367px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.requisite {
+    margin-right: 167px;
+}
+.information {
+    margin-right: 158px;
+}
+.contacts {
+    margin-right: 155px;
+}
+.footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+.footer-list {
+    padding: 0;
+}
+.footer-link {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: inherit;
+}
+.to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+    padding: 18px;
+}
+@media (max-width: 1200px) {
+    .container-header,
+    .hero-container,
+    .about-container,
+    .readers-container,
+    .footer-container
+     {
+        max-width: 960px;
+    }
+    .image-block {
+        margin-right: 30px;
+        max-width: 390px;
+        min-width: 390px;
+    }
+    .abooutbook {
+        max-width: 367px;
+    }
+    .readers-photo {
+        width: 139px;
+        height: 139px;
+    }
+    .aboutbook {
+        margin-right: 52px;
+    }
+    .aboutauthor {
+        flex-shrink: 0;
+        font-style: 16px;
+    }
+    .readers {
+        padding-top: 69px;
+        padding-bottom: 94px;
+    }
+    .readers-title {
+        margin-top: 0;
+    }
+    .reader-photo {
+        max-width: 139px;
+        max-height: 139px;
+    }
+    .footer {
+        padding-left: 0;
+        margin: auto;
+    }
+    .requisite {
+        margin-right: 150px;
+    }
+    .information {
+        margin-right: 150px;
+    }
+    .contacts {
+        margin-right: 0;
+    }
+}
+@media (max-width: 992px) {
+    .container-header,
+    .hero-container,
+    .about-container,
+    .readers-container,
+    .footer-container
+     {
+        max-width: 761px;
+    }
+    .navbar {
+        display: none;
+    }
+    .hero {
+        margin-top: 59px;
+    }
+    .author {
+        margin-bottom: 13px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .title {
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .subtitle {
+        margin-bottom: 29px;
+    }
+    .to-read {
+        padding: 22px 45px;
+    }
+    .about-container {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .aboutbook {
+        max-width:100%;
+        margin-bottom: 62px;
+    }
+    .booktitle {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 29px;
+    }
+    .aboutauthor {
+        margin-bottom: 82px;
+    }
+    .reader-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .no-show-992 {
+        display: none;
+    }
+    .reader-photo {
+        max-width: 165px;
+        max-height: 165px;
+    }
+    .readers {
+        padding-bottom: 81px;
+    }
+    .footer-container {
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width: 768px)    {
+    .container-header,
+    .hero-container,
+    .about-container,
+    .readers-container,
+    .footer-container
+     {
+        max-width: 560px;
+    }
+    .hero {
+        margin-top: 40px;
+    }
+    .hero-container {
+        flex-wrap: wrap;
+        align-items: center;
+        min-width: 560px;
+
+    }
+    .image-block {
+        min-width: 100%;
+        margin-bottom: 60px;
+    }
+    .hero-image {
+        width: 100%;
+    }
+    .about {
+        padding-top: 81px;
+        padding-bottom: 93px;
+    }
+    .no-show-768 {
+        display: none;
+    }
+    .footer-container {
+    flex-wrap: wrap;
+    }
+}
+    @media (max-width: 576px)    {
+        .container-header,
+        .hero-container,
+        .about-container,
+        .readers-container,
+        .footer-container
+         {
+            max-width: 479px;
+        }
+        .hero-image {
+            width: 100%;
+        }
+        .details {
+            display: grid;
+        }
+        .favorites {
+            display: none;
+        }
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .to-read, .to-buy {
+            padding: 31px 172px;
+        }
+       .to-read {
+            padding: 31px 160px;
+            margin-bottom: 20px;
+        }
+        .aboutauthor {
+            padding-top: 54px;
+            padding-bottom: 69px;
+            align-items: flex-start;
+            min-height: 267px;
+        }
+        .author-photo {
+            width: 64px;
+            height: 66px;
+        }
+        .reader-photo {
+            width: 144px;
+            height: 144px;
+        }
+}
+@media (max-width: 320px) {  
+        .container-header,
+        .hero-container,
+        .about-container,
+        .readers-container,
+        .footer-container
+         {
+            max-width: 263px;
+        }
+        .hero-image{
+            max-width: 263px;
+            min-width: 263px;
+        }
+        .author {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 15px;
+            margin-bottom: 11px;
+        }
+        .subtitle{
+            font-size: 18px;
+        }
+        .details {
+            font-size: 14px;
+        }
+        .buttons {
+            flex-wrap: wrap;
+        }
+        .to-read, .to-buy {
+            padding: 23px 63px;
+        }
+        .to-buy {
+            padding: 23px 63px 11px 63px;
+        }
+        .about {
+            width: 100%;
+        }
+        .reader-photo {
+            width: 124px;
+            height: 125px;
+        }
+        .no-show-320 {
+            display: none;
+        }
+}
